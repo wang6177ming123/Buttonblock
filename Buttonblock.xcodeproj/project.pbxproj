@@ -14,6 +14,9 @@
 		EC67B6591E65687500230A53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC67B6581E65687500230A53 /* Assets.xcassets */; };
 		EC67B65C1E65687500230A53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC67B65A1E65687500230A53 /* LaunchScreen.storyboard */; };
 		EC67B6671E65687500230A53 /* ButtonblockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC67B6661E65687500230A53 /* ButtonblockTests.m */; };
+		EC67B6731E6568AC00230A53 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = EC67B6721E6568AC00230A53 /* UIButton+Block.m */; };
+		EC67B6761E6572B800230A53 /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = EC67B6751E6572B800230A53 /* UIAlertView+Block.m */; };
+		EC67B6791E65736B00230A53 /* Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = EC67B6781E65736B00230A53 /* Alert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		EC67B6621E65687500230A53 /* ButtonblockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonblockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC67B6661E65687500230A53 /* ButtonblockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonblockTests.m; sourceTree = "<group>"; };
 		EC67B6681E65687500230A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC67B6711E6568AC00230A53 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		EC67B6721E6568AC00230A53 /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
+		EC67B6741E6572B800230A53 /* UIAlertView+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Block.h"; sourceTree = "<group>"; };
+		EC67B6751E6572B800230A53 /* UIAlertView+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Block.m"; sourceTree = "<group>"; };
+		EC67B6771E65736B00230A53 /* Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alert.h; sourceTree = "<group>"; };
+		EC67B6781E65736B00230A53 /* Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alert.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +90,14 @@
 		EC67B64B1E65687500230A53 /* Buttonblock */ = {
 			isa = PBXGroup;
 			children = (
+				EC67B6741E6572B800230A53 /* UIAlertView+Block.h */,
+				EC67B6751E6572B800230A53 /* UIAlertView+Block.m */,
+				EC67B6711E6568AC00230A53 /* UIButton+Block.h */,
+				EC67B6721E6568AC00230A53 /* UIButton+Block.m */,
 				EC67B64F1E65687500230A53 /* AppDelegate.h */,
 				EC67B6501E65687500230A53 /* AppDelegate.m */,
+				EC67B6771E65736B00230A53 /* Alert.h */,
+				EC67B6781E65736B00230A53 /* Alert.m */,
 				EC67B6521E65687500230A53 /* ViewController.h */,
 				EC67B6531E65687500230A53 /* ViewController.m */,
 				EC67B6551E65687500230A53 /* Main.storyboard */,
@@ -215,9 +230,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC67B6791E65736B00230A53 /* Alert.m in Sources */,
 				EC67B6541E65687500230A53 /* ViewController.m in Sources */,
 				EC67B6511E65687500230A53 /* AppDelegate.m in Sources */,
+				EC67B6761E6572B800230A53 /* UIAlertView+Block.m in Sources */,
 				EC67B64E1E65687500230A53 /* main.m in Sources */,
+				EC67B6731E6568AC00230A53 /* UIButton+Block.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
